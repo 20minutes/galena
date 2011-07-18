@@ -1,0 +1,4 @@
+galena.coffee
+*.egg-info
+*.egg
+*.pyc
