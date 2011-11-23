@@ -2,3 +2,4 @@ galena.coffee
 *.egg-info
 *.egg
 *.pyc
+dist/
