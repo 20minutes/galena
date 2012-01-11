@@ -11,7 +11,7 @@ class Galena(object):
 
     def send(self, metric, value, timestamp=None):
         try:
-            self._sock.send("%s %d %s\n\n" % (metric, value,
+            self._sock.send("%s %g %s\n\n" % (metric, value,
                 timestamp or int(time())))
         except socket.error:
             pass  # Failing silently for now
